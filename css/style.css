@@ -35,6 +35,9 @@ html {
 .fnt-white {
     color: white;
 }
+.fnt-viola {
+    color: #404EED;
+}
 
 /* header */
 
@@ -52,7 +55,7 @@ nav{
     margin: 0 auto;
     padding: 20px 0;
 }
-ul {
+header nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 500px;
@@ -63,12 +66,19 @@ li {
 }
 a {
     text-decoration: none;
-
+    
 }
+
+
 .btn{
     text-decoration: none;
     padding: 15px;
     border-radius: 25px;
+    box-shadow: 0px 5px 8px #23272a;
+}
+.btn-hero a:hover {
+    color: white;
+    background-color: #23272a;
 }
 h1{
     font-size: 56px;
@@ -113,5 +123,56 @@ div.text p {
 }
 svg {
     display: block;
-    color:#f6f6f6;
+    color:#f6f6f6;  /*#f6f6f6*/
+}
+section:nth-child(1n-2) img{
+    margin-right: 30px;
+}
+.last-section {
+    text-align: center;
+}
+.last-section div {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* fine ultima section */
+
+h3 {
+    font-size: 36px;
+}
+.last-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+
+
+/* footer */
+
+.icons img {
+    width: 20px;
+}
+.icons h3{
+    padding-bottom: 10px;
+    font-size: 32px;
+    width: 250px;
+}
+footer > div {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+footer div ul {
+    line-height: 1.8em;
+    font-size: 14px;
 }
