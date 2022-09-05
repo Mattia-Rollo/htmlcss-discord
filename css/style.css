@@ -14,7 +14,9 @@ html {
 }
 
 /* colori */
-
+.bg-lightgrey {
+    background-color: #f6f6f6;
+}
 .bg-viola {
     background-color: #404EED;
 }
@@ -28,7 +30,7 @@ html {
     background-color: #23272a;
 }
 .fnt-black {
-    color: black;
+    color: #23272a;
 }
 .fnt-white {
     color: white;
@@ -57,6 +59,11 @@ ul {
 }
 li {
     list-style: none;
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+
 }
 .btn{
     text-decoration: none;
@@ -72,6 +79,7 @@ h1{
     display: flex;
     justify-content: center;
     padding: 30px 50px;
+    height: auto;
 }
 .hero {
     text-align: center;
@@ -87,13 +95,23 @@ p{
 /* sezioni della pagina */
 h2 {
     font-size: 48px;
+    padding-bottom: 50px;
 }
 .flex-box {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 150px 0;
 }
 div.text {
     width: 20%;
     padding: 20px;
+    margin-left: 50px;
+}
+div.text p {
+    line-height: 1.8em;
+}
+svg {
+    display: block;
+    color:#f6f6f6;
 }
