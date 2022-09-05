@@ -80,3 +80,10 @@ p{
 .hero p {
     padding-bottom: 50px;
 }
+.flex-box {
+    display: flex;
+    max-width: 1100px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
