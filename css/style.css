@@ -176,3 +176,6 @@ footer div ul {
     line-height: 1.8em;
     font-size: 14px;
 }
+footer div ul li:first-child {
+    font-size: 18px;
+}
