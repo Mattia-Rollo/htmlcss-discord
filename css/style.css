@@ -271,3 +271,16 @@ footer > div:last-child {
     padding: 5px;
     border-radius: 15px;
 }
+
+/* sezione per la pagina download  */
+.flex.col {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: aqua;
+}
+.flex-col-1 {
+    background-color: #404EED;
+}
+.item {
+    background-color: red;
+}
