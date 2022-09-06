@@ -109,6 +109,17 @@ header ul a:hover {
     background-color: #6a75ec;
     transition: color 0.5s;
 }
+
+/* :hover su tasto accedi viola in download */
+
+.download .btn:hover{
+    color: white;
+    background-color: #6a75ec;
+    transition: color 0.5s;
+}
+
+/* tasto invertito di colore in index.html  */
+
 .inverti:hover {
     color: #23272a;
     background-color: white;
@@ -296,18 +307,19 @@ footer > div:last-child {
     overflow: hidden;
     text-align: center;
 }
-.item h1{
+.item h3{
     text-align: center;
+    padding-top: 10px;
 }
 .item img{
     position: relative;
-    top: 100px;
+    top: 0px;
     left: 20px;
 }
 .item a {
     display: inline-block;
     text-align: center;
 }
-.item h1 {
-    padding: 0;
+.item.last {
+    height: auto;
 }
