@@ -69,6 +69,7 @@ li {
 }
 a {
     text-decoration: none;
+    padding: 5px;
 }
 
 
@@ -77,10 +78,12 @@ a {
     padding: 15px;
     border-radius: 25px;
     box-shadow: 0px 5px 8px #23272a;
+    margin: 20px;
 }
-.btn-hero a:hover {
+a:hover {
     color: white;
     background-color: #23272a;
+    transition: color 0.5s;
 }
 h1{
     font-size: 56px;
@@ -105,6 +108,7 @@ p{
 }
 
 /* sezioni della pagina */
+
 h2 {
     font-size: 48px;
     padding-bottom: 50px;
