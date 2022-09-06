@@ -273,14 +273,41 @@ footer > div:last-child {
 }
 
 /* sezione per la pagina download  */
-.flex.col {
+.flex-col {
     display: flex;
-    flex-flow: row wrap;
-    background-color: aqua;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* background-color: aqua; */
 }
 .flex-col-1 {
-    background-color: #404EED;
+    /* background-color: #404EED; */
+    margin-top: 50px;
+}
+.flex-col-2 {
+    /* background-color: #404EED; */
+    margin-top: 150px;
 }
 .item {
-    background-color: red;
+    /* background-color: red; */
+    border-radius: 15px;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.item h1{
+    text-align: center;
+}
+.item img{
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+.item a {
+    display: inline-block;
+    text-align: center;
+}
+.item h1 {
+    padding: 0;
 }
