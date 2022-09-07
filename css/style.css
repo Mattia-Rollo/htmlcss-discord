@@ -4,61 +4,75 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
+
 html {
-    font-family: "Ginto Normal","Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     color: white;
 }
+
 .debug {
     border: 1px solid black;
     /* height: 200px; */
 }
 
 /* colori */
+
 .bg-lightgrey {
     background-color: #f6f6f6;
 }
+
 .bg-viola {
     background-color: #404EED;
 }
+
 .bg-grey {
     background-color: #23272a;
 }
-.bg-white{
+
+.bg-white {
     background-color: white;
 }
-.bg-dark{
+
+.bg-dark {
     background-color: #23272a;
 }
+
 .fnt-black {
     color: #23272a;
 }
+
 .fnt-white {
     color: white;
 }
+
 .fnt-viola {
     color: #404EED;
 }
+
 .bold {
     font-weight: 700;
 }
 
 /* header */
 
-header.bg-viola{
+header.bg-viola {
     padding-bottom: 50px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     height: 600px;
 }
-.hero-container img{
+
+.hero-container img {
     width: 35%;
 }
-nav{
+
+nav {
     max-width: 1100px;
     display: flex;
     justify-content: space-between;
@@ -66,90 +80,103 @@ nav{
     margin: 0 auto;
     padding: 20px 0;
 }
+
 header nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 500px;
 }
+
 li {
     list-style: none;
     font-weight: 700;
 }
+
 a {
     text-decoration: none;
     padding: 5px;
     font-weight: 700;
 }
+
 header ul a:hover {
     text-decoration: underline;
 }
 
 
-.btn{
+.btn {
     text-decoration: none;
     padding: 15px;
     border-radius: 25px;
     box-shadow: 0px 5px 8px #23272a;
     margin: 20px;
 }
-.hero-downlaod .btn{
+
+/* .hero-downlaod .btn{
     text-decoration: none;
     padding: 15px;
     border-radius: 25px;
     box-shadow: 0px 5px 8px #23272a;
     margin: 20px;
-}
+} */
 .btn:hover {
     color: white;
     background-color: #23272a;
     transition: color 0.5s;
 }
-.hero-download .btn:hover{
-    color: white;
+
+.hero-download .btn:hover {
+    /* color: white; */
     background-color: #6a75ec;
-    transition: color 0.5s;
+    /* transition: color 0.5s; */
 }
 
 /* :hover su tasto accedi viola in download */
 
-.download .btn:hover{
-    color: white;
+.download .btn:hover {
+    /* color: white; */
     background-color: #6a75ec;
-    transition: color 0.5s;
+    /* transition: color 0.5s; */
 }
 
 /* tasto invertito di colore in index.html  */
 
 .inverti:hover {
     color: #23272a;
-    background-color: white;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
 }
-h1{
+
+h1 {
     font-size: 56px;
     font-weight: 700px;
     padding: 20px 0 50px 0;
 }
+
 .hero-container {
     display: flex;
     justify-content: center;
     padding: 30px 50px;
     height: auto;
 }
+
 .hero {
     text-align: center;
     max-width: 700px;
 }
+
 .hero-download {
     max-width: 500px;
 }
 
-p{
+p {
     line-height: 1.625;
 }
 
 .hero-download p {
     padding-bottom: 30px;
 }
+
 .hero-download h1 {
     padding-bottom: 10px;
 }
@@ -164,6 +191,7 @@ h2 {
     font-size: 48px;
     padding-bottom: 50px;
 }
+
 .flex-box {
     display: flex;
     align-items: center;
@@ -171,24 +199,31 @@ h2 {
     flex-wrap: wrap;
     padding: 150px 0;
 }
+
 div.text {
     width: 20%;
     padding: 20px;
     margin-left: 50px;
 }
+
 div.text p {
     line-height: 1.8em;
 }
+
 svg {
     display: block;
-    color:#f6f6f6;  /*#f6f6f6*/
+    color: #f6f6f6;
+    /*#f6f6f6*/
 }
-section:nth-child(1n-2) img{
+
+section:nth-child(1n-2) img {
     margin-right: 30px;
 }
+
 .last-section {
     text-align: center;
 }
+
 .last-section div {
     max-width: 1170px;
     margin: 0 auto;
@@ -198,8 +233,9 @@ section:nth-child(1n-2) img{
 
 h3 {
     font-size: 36px;
-    
+
 }
+
 .last-box {
     display: flex;
     flex-direction: column;
@@ -210,9 +246,8 @@ h3 {
     background-size: 60%;
     background-repeat: no-repeat;
 }
-.last-btn {
-    
-}
+
+.last-btn {}
 
 
 
@@ -223,15 +258,17 @@ h3 {
 .icons img {
     width: 20px;
 }
+
 /* titolo sopra la bandiera */
 
-.icons h3{
+.icons h3 {
     padding-bottom: 10px;
     font-size: 32px;
     width: 250px;
 }
+
 /* container principale per le liste nel footer  */
-footer > div.last-links {
+footer>div.last-links {
     max-width: 1170px;
     margin: 0 auto;
     /* display: flex; */
@@ -244,17 +281,19 @@ footer div div {
     float: left;
     vertical-align: top;
     width: calc(100% / 6);
-    
+
 }
-footer div div.icons{
-    width: calc((100% / 6) * 2 );
+
+footer div div.icons {
+    width: calc((100% / 6) * 2);
 }
 
 footer div ul {
     line-height: 1.8em;
     font-size: 14px;
-    
+
 }
+
 /* Ingrandimento Primo list item in ul  */
 footer div ul li:first-child {
     font-size: 18px;
@@ -264,23 +303,26 @@ footer div ul li:first-child {
 
 
 /* piè di pagina  */
-footer > div:last-child {
+footer>div:last-child {
     width: 1170px;
     margin: 0 auto;
     padding: 10px 0;
 }
+
 .ciao {
     /* padding: 50px 0; */
 }
+
 .ciao img {
     float: left;
 }
+
 .ciao a {
     float: right;
     background-color: #404EED;
     color: white;
-    padding: 5px;
-    border-radius: 15px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 /* sezione per la pagina download  */
@@ -290,36 +332,43 @@ footer > div:last-child {
     /* flex-direction: column; */
     /* background-color: aqua; */
 }
+
 .flex-col-1 {
     /* background-color: #404EED; */
     margin-top: 50px;
 }
+
 .flex-col-2 {
     /* background-color: #404EED; */
     margin-top: 150px;
 }
+
 .item {
     /* background-color: red; */
     border-radius: 15px;
     width: 500px;
     height: 500px;
-    margin: 20px;
+    margin: 20px 10px;
     overflow: hidden;
     text-align: center;
 }
-.item h3{
+
+.item h3 {
     text-align: center;
     padding-top: 10px;
 }
-.item img{
+
+.item img {
     position: relative;
     top: 0px;
-    left: 20px;
+    left: 0px;
 }
+
 .item a {
     display: inline-block;
     text-align: center;
 }
+
 .item.last {
     height: auto;
 }
