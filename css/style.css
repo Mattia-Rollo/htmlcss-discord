@@ -70,7 +70,7 @@ header.bg-viola {
     padding-bottom: 50px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    
+    background-position: 0 35px;
     height: 600px;
 }
 .hero-container{
