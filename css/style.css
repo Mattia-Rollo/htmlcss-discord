@@ -70,6 +70,7 @@ header.bg-viola {
     padding-bottom: 50px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    
     height: 600px;
 }
 .hero-container{
@@ -167,8 +168,8 @@ h1 {
 .hero-container {
     display: flex;
     justify-content: center;
-    padding: 30px 50px;
-    height: 600px;
+    /* padding: 30px 50px;*/
+    height: 100%;
     align-items: center;
 }
 
