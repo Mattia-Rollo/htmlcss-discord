@@ -60,12 +60,22 @@ html {
 }
 
 /* header */
+.fixed {
+    position: fixed;
+    width: 100%;
+    background-color: #255ee9;
+}
 
 header.bg-viola {
     padding-bottom: 50px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     height: 600px;
+}
+.hero-container{
+    /* background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: auto; */
 }
 
 .hero-container img {
@@ -78,7 +88,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 0;
+    
 }
 
 header nav ul {
@@ -157,7 +168,8 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 30px 50px;
-    height: auto;
+    height: 600px;
+    align-items: center;
 }
 
 .hero {
